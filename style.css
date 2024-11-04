@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt arial;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+div p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    width: 150px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.visual, .final{
+    width: 100px;
+    padding: 8px 16px ;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(133, 133, 255);
+    color: #fff;
+    cursor: pointer;
+}
+
+.final{
+    display: flex;
+    margin-left: 25px; 
+    margin-top: 5px;
+    
+}
+
+#res{
+    text-align: left;
+    width: 90%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#result{
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#result p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.minha-classe{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+
+  option {
+    font-size: 14px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #ddd;
+  }
+
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+}

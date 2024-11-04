@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <h1>Analisador de Números</h1>
+</header>
+
+<section>
+    <div>
+        <p>Número (entre 1 e 100):
+            <input type="number" name="txtInicio" id="txtInicio" min="0">
+            <input type="button" class="visual" id="inputCont" onclick="adicionar()" value="Adicionar">
+        </p>
+    </div>
+
+    <div>
+        <select name="tabuada" id="res" size="11"> 
+        </select>
+
+        <div id="result"></div>
+
+        <input type="button" class="final" id="inputCont" onclick="finalizar()" value="Finalizar">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; Ezequiel</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
